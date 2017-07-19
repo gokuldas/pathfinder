@@ -1,5 +1,14 @@
 #!/usr/bin/sh
-# Script to set bash PATH environment variable
+
+# Copyright (c) 2017 Gokul Das B
+
+# This file is a part of Pathfinder scripts and is licensed under the
+# terms of MIT license. Refer LICENSE file at the root of this source
+# tree for more details
+
+# Pathfinder: Scripts to manage PATH environment variable
+# This script handles user commands and environment variables
+# Always execute this command with 'source' prefix
 
 # $PATH      : The environment variable
 # $PFBACKUP  : Variable where path is saved for safety

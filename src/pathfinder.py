@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-# Script to set bash PATH environment variable
+
+# Copyright (c) 2017 Gokul Das B
+
+# This file is a part of Pathfinder scripts and is licensed under the
+# terms of MIT license. Refer LICENSE file at the root of this source
+# tree for more details
+
+# Pathfinder: Scripts to manage PATH environment variable
+# This script handles path string modifications
 
 import os, sys, toml
 
