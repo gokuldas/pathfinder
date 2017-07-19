@@ -7,22 +7,18 @@ aspects = ["android-studio", "android", "user"]
 [[Paths]]
 path = "$ANDROID_SDK_ROOT/tools/bin"
 aspects = ["android-sdk-tools", "android-sdk", "android", "user"]
-# https://developer.android.com/studio/command-line/index.html#tools-sdk
 
 [[Paths]]
 path = "$ANDROID_SDK_ROOT/build-tools/26.0.0"
 aspects = ["android-build-tools", "android-sdk", "android", "user"]
-# https://developer.android.com/studio/command-line/index.html#tools-build
 
 [[Paths]]
 path = "$ANDROID_SDK_ROOT/platform-tools"
 aspects = ["android-platform-tools", "android-sdk", "android", "user"]
-# https://developer.android.com/studio/command-line/index.html#tools-platform
 
 [[Paths]]
 path = "$ANDROID_SDK_ROOT/emulator"
 aspects = ["android-emulator", "android-sdk", "android", "user"]
-# https://developer.android.com/studio/command-line/index.html#tools-emulator
 
 [[Paths]]
 path = "$ANACONDA_HOME/bin"
@@ -35,12 +31,10 @@ aspects = ["rust", "user", "default"]
 [[Paths]]
 path = "$HOME/.gem/ruby/2.4.0/bin"
 aspects = ["ruby", "user", "default"]
-# export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 [[Paths]]
 path = "$HOME/.npm-global/bin"
 aspects = ["npm", "user", "default"]
-# https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-2-change-npms-default-directory-to-another-directory
 
 [[Paths]]
 path = "$HOME/.zplug/repos/zplug/zplug/bin"
@@ -53,7 +47,6 @@ aspects = ["zplug", "user", "default"]
 [[Paths]]
 path = "$HOME/.luarocks/bin"
 aspects = ["lua", "user", "default"]
-# eval $(luarocks path --bin)
 
 [[Paths]]
 path = "$HOME/.local/bin"
