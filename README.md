@@ -34,6 +34,7 @@ configuration path is usually `~/.config` as specified by
 Do an `echo $XDG_CONFIG_HOME` to ensure that it is not empty. If it is empty,
 replace `$XDG_CONFIG_HOME` with `~/.config` path in the commands below.
 ```bash
+mkdir -p ~/scripts
 cd ~/scripts
 git clone https://github.com/gokuldas/pathfinder pathfinder
 mkdir -p $XDG_CONFIG_HOME/pathfinder
